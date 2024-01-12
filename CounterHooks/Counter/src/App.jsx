@@ -14,12 +14,15 @@ function App() {
   
   const addValue= ()=>{
     console.log("value Added",Math.floor(Math.random()*10));
-    counter+=1
-    setCounter(counter)
+    if(counter<20){
+      
+      counter+=1
+      setCounter(counter)
+    }
   }
   const removeValue=()=>{
     console.log("value Removed");
-    if(counter>1){
+    if(counter>=1){
       counter-=1
 
       setCounter(counter)
