@@ -18,7 +18,7 @@ function App() {
     <>
       <h1 className='bg-green-400 text-black rounded-xl mb-5'> Tailwaind test </h1>
 
-     <Card Name ="React Series" obj = {myObj} newArr={newArr}></Card>
+     <Card Name ="React Series" MyObj = {myObj} newArr={newArr}></Card>
 
     </>
   )

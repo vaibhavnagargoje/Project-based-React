@@ -1,6 +1,10 @@
 import React from "react";
-function Card(props){
-  console.log(props);
+function Card({MyObj}){
+  console.log({MyObj});  // destructure the props 
+  // console.log({MyObj});
+
+
+
   return(
     <>
      <div className="relative h-[400px] w-[300px] rounded-md">
