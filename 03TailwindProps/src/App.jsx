@@ -10,7 +10,7 @@ function App() {
     username:"Vaibhav",
     age:23,
     city:'pune',
-    School:'Fergusson'
+    School:'Fergusson',
   }
 
   let newArr=[1,2,4,5,6]
@@ -18,7 +18,8 @@ function App() {
     <>
       <h1 className='bg-green-400 text-black rounded-xl mb-5'> Tailwaind test </h1>
 
-     <Card Name ="React Series" MyObj = {myObj} newArr={newArr}></Card>
+     <Card Name ="React Series" btnValue="Learn Now" MyObj = {myObj} newArr={newArr}></Card>
+     <Card Name ="Vaibhav Nagargoje " btnValue="Know More"></Card>
 
     </>
   )
